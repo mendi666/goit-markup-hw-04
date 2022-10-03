@@ -112,8 +112,8 @@ body {
 
 .header-contact-item {
   display: flex;
-  justify-content: first baseline;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-icon-smartphone {
@@ -133,6 +133,7 @@ body {
 .link-nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header-list {
@@ -141,11 +142,13 @@ body {
 
 .header-contacts {
   display: flex;
+  justify-content: center;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+
   justify-content: space-between;
   border-bottom: #000000;
 }
@@ -199,6 +202,9 @@ span.second-color-header {
 
 .header-contact {
   color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Hero */
@@ -450,6 +456,12 @@ span.second-color-header {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+}
+
+.customer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .customer-item:hover {
